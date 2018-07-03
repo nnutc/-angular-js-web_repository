@@ -7,6 +7,5 @@
   * [1.3 创建第一个Angular项目](chapter1/13-chuang-jian-di-yi-ge-angular-xiang-mu.md)
   * [1.4 Angular项目的启动](chapter1/14-angularxiang-mu-de-qi-dong.md)
 * [第二章 Angular项目结构和组件开发](di-er-zhang-huan-jing-da-jian.md)
-  * [2.1 环境准备](di-er-zhang-huan-jing-da-jian/21-huan-jing-zhun-bei.md)
-  * [2.2 搭建流程](di-er-zhang-huan-jing-da-jian/22-da-jian-liu-cheng.md)
+  * 2.1 项目目录结构
 
