@@ -13,7 +13,7 @@
 2．项目中组件生成方法
 在系统生成项目时，App组件已经自动生成，其他组件需要开发者创建，创建组件的方法有两种：
 	利用WebStorm集成开发环境创建：即在项目目录的app文件夹上右击，在弹出的菜单中选择New→Angular CLI…后，输入新建组件的名称，本例中的名称为“footer”，如图5所示；
- 
+ ![](/assets/25.JPG)
 图5 新建组件
 	利用命令行创建：单击开始 →所有程序 →Node.js→Node.js command prompt，进入Node.js命令行，输入ng  g component stars，表示创建星级评定组件。
 3．开发组件
@@ -38,7 +38,7 @@
 <app-footer></app-footer>
 （2）编写导航条组件（navbar）的模板文件——navbar.component.html
 导航条在每个网站中几乎都会用到，本案例中开发的导航条要能实现导航条的内容会随着浏览器窗口尺寸的变化能够让导航条中的内容能够自动收放（即当浏览器窗口小到一定程序时，会在导航条右侧出现一个按钮，单击按钮能够出现导航导中内容的菜单），显示效果如图6所示，便于适应不同大小屏幕的智能设备，实现代码如下：
- 
+ ![](/assets/26.JPG)
 图6 导航条显示效果
 <nav class="navbar navbar-inverse navbar-fixed-top">
 <div class="container">
