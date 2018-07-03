@@ -14,8 +14,6 @@
 
 1．Angular的发展
 
-
-
 2．TypeScript
 
 TypeScript是一种由微软开发的自由和开源的编程语言。
@@ -23,8 +21,6 @@ TypeScript是一种由微软开发的自由和开源的编程语言。
 TypeScript是JavaScript的强类型版本，它可以在编译时去掉类型和特有的语法生成纯粹的JavaScript，由于最终在浏览器运行的仍然是JavaScript，所以TypeScript并不依赖于浏览器的支持，也并不会带来兼容性问题。
 
 2016年9月底发布的Angular 2框架，这个框架本身是由TypeScript编写的。
-
-
 
 3．Angular能做什么
 
@@ -36,9 +32,7 @@ TypeScript是JavaScript的强类型版本，它可以在编译时去掉类型和
 
 **附：多页和单页应用模式区别**
 
-http://blog.csdn.net/u013291076/article/details/53667382
-
-
+[http://blog.csdn.net/u013291076/article/details/53667382](http://blog.csdn.net/u013291076/article/details/53667382)
 
 **二、开发环境搭建**
 
@@ -56,80 +50,15 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 1．下载并安装Node.js
 
-打开Node.js的官方网站：https://nodejs.org/en/。网站会根据你的操作系统弹出一些相应的Node.js版本，可以任意选择一个版本（建议选择Current）。
+打开Node.js的官方网站：[https://nodejs.org/en/。网站会根据你的操作系统弹出一些相应的Node.js版本，可以任意选择一个版本（建议选择Current）。](https://nodejs.org/en/。网站会根据你的操作系统弹出一些相应的Node.js版本，可以任意选择一个版本（建议选择Current）。)
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)&lt;!--  
- /\* Font Definitions \*/  
- @font-face  
-	{font-family:宋体;  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-alt:SimSun;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
-@font-face  
-	{font-family:宋体;  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-alt:SimSun;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
-@font-face  
-	{font-family:"\@宋体";  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
- /\* Style Definitions \*/  
- p.MsoNormal, li.MsoNormal, div.MsoNormal  
-	{mso-style-unhide:no;  
-	mso-style-qformat:yes;  
-	mso-style-parent:"";  
-	margin:0cm;  
-	margin-bottom:.0001pt;  
-	text-align:justify;  
-	text-justify:inter-ideograph;  
-	mso-pagination:none;  
-	font-size:10.5pt;  
-	mso-bidi-font-size:12.0pt;  
-	font-family:"Times New Roman","serif";  
-	mso-fareast-font-family:宋体;  
-	mso-font-kerning:1.0pt;}  
-.MsoChpDefault  
-	{mso-style-type:export-only;  
-	mso-default-props:yes;  
-	font-size:10.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	mso-bidi-font-size:10.0pt;  
-	mso-ascii-font-family:"Times New Roman";  
-	mso-fareast-font-family:宋体;  
-	mso-hansi-font-family:"Times New Roman";  
-	mso-font-kerning:0pt;}  
- /\* Page Definitions \*/  
- @page  
-	{mso-page-border-surround-header:no;  
-	mso-page-border-surround-footer:no;}  
-@page WordSection1  
-	{size:612.0pt 792.0pt;  
-	margin:72.0pt 90.0pt 72.0pt 90.0pt;  
-	mso-header-margin:36.0pt;  
-	mso-footer-margin:36.0pt;  
-	mso-paper-source:0;}  
-div.WordSection1  
-	{page:WordSection1;}  
---&gt;  
-
-
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)![](/assets/1.JPG)
 
 图1选择Node.js的版本
 
 下载完后会得到一个.msi格式的文件\(如node-v8.7.0-x64.msi\)，双击它就可安装了，如图2所示，然后直接根据提示安装即可。
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg)![](/assets/2.JPG)
 
 图2 Node.js安装界面
 
@@ -163,11 +92,11 @@ div.WordSection1
 
 图5测试Angular CLI版本
 
-如果安装不成功，也可以使用国内的镜像网站：https://npm.taobao.org/
+如果安装不成功，也可以使用国内的镜像网站：[https://npm.taobao.org/](https://npm.taobao.org/)
 
 3．下载并安装WebStorm
 
-进入官方网站https://www.jetbrains.com/webstorm/，如图6所示。点击网站右上角的“Download”按钮。进入下载界面，然后根据你的操作系统选择相应的软件版本。下载完成后，会得到一个.exe文件（如WebStorm-2017.2.5.exe）。直接双击安装即可（如图7~图9所示）。
+进入官方网站[https://www.jetbrains.com/webstorm/，如图6所示。点击网站右上角的“Download”按钮。进入下载界面，然后根据你的操作系统选择相应的软件版本。下载完成后，会得到一个.exe文件（如WebStorm-2017.2.5.exe）。直接双击安装即可（如图7~图9所示）。](https://www.jetbrains.com/webstorm/，如图6所示。点击网站右上角的“Download”按钮。进入下载界面，然后根据你的操作系统选择相应的软件版本。下载完成后，会得到一个.exe文件（如WebStorm-2017.2.5.exe）。直接双击安装即可（如图7~图9所示）。)
 
 ![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image012.jpg)
 
@@ -177,19 +106,13 @@ div.WordSection1
 
 图7安装目标位置选择
 
-
-
 ![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image016.jpg)
 
 图8安装选项设置
 
-
-
 ![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image018.jpg)
 
 图9完成安装界面
-
-
 
 4．激活WebStorm
 
@@ -201,7 +124,7 @@ div.WordSection1
 
 （3）同样弹出如图10所示的对话框，并有提示免费体验的剩余天数，其中有三种激活方法：即购买软件之后的账户、激活码和特许站点。
 
-（4）选择第三种方法（特许站点），然后在输入框中输入相应的网站地址（笔者使用的http://idea.ibdyr.com或http://idea.codebeta.cn网址，根据实际情况可以百度查询）。然后点击active，进行激活。
+（4）选择第三种方法（特许站点），然后在输入框中输入相应的网站地址（笔者使用的[http://idea.ibdyr.com或http://idea.codebeta.cn网址，根据实际情况可以百度查询）。然后点击active，进行激活。](http://idea.ibdyr.com或http://idea.codebeta.cn网址，根据实际情况可以百度查询）。然后点击active，进行激活。)
 
 ![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image020.jpg)
 
@@ -236,8 +159,4 @@ div.WordSection1
 图13 Run/Debug Configurations对话框
 
 3．启动项目：Run→Run newsreport，最终运行的应用程序可以使用[http://localhost:4200](http://localhost:4200)地址在浏览器中打开。
-
-
-
-
 
