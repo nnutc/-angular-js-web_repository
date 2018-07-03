@@ -10,4 +10,5 @@
   * [2.1 项目目录结构](di-er-zhang-huan-jing-da-jian/21-xiang-mu-mu-lu-jie-gou.md)
   * [2.2  项目中引入第三方类库](di-er-zhang-huan-jing-da-jian/22-xiang-mu-zhong-yin-ru-di-san-fang-lei-ku.md)
   * [2.3 创建组件和应用](di-er-zhang-huan-jing-da-jian/23-chuang-jian-zu-jian-he-ying-yong.md)
+* [第三章 Angular Router](di-sanzhang-angular-router.md)
 
