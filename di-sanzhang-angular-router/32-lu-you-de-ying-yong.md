@@ -72,7 +72,7 @@ export class ProductComponent implements OnInit {
 1.	<p>
 2.	  这是product商品信息，该商品的ID为{{productId}}
 3.	</p>
- 
+ ![](/assets/34.JPG)
 图3.4在查询参数中传递数据运行效果
 （2）在路由路径（URL）中传递数据
 定义路由的路径   =>    实际路径   =>        路由目标组件
@@ -99,7 +99,7 @@ export class ProductComponent implements OnInit {
   }
 }
 	最后在商品信息模板中使用插值表达式获得productId。运行后效果如图3.5所示。
- 
+ ![](/assets/35.JPG)
 图3.5路由路径（URL）中传递数据运行效果
 若此时点击商品信息按钮，则显示“对不起，该页面不存在！”，此时因为商品信息按钮没有接收到参数，所以需要修改app.component.ts文件中的路由指向值，即如下代码第8行所示：
 export class AppComponent {
@@ -141,7 +141,7 @@ const routes: Routes = [
 ];
 上述代码中若访问路由的home路径时，此时会展示HomeComponent组件的模板，同时这个模板的Routerlet位置会展示HXXXComponent组件的模板；若访问home/yyy路径时，此时屏幕上仍然会展示HomeComponent组件的模板，但是这个模板的Routerlet位置会展示HYYYComponent组件的模板。
 下面接着上面的示例实现商品信息功能，如图3.6所示，当点击“product商品信息”链接时，会在商品信息下显示“商品详细描述”和“销售员信息”链接，当点击“商品详细描述”和“销售员信息”链接时，分别显示相应的信息。要实现这样的效果，就需要使用子路由功能。具体实现步骤如下：
- 
+ ![](/assets/36.JPG)
 图3.6 子路由运行效果图
 （1）创建商品详细描述组件（productAllInfo）和销售员信息组件（sellInfo） 
 （2）修改销售员信息组件（sell-info.component.ts文件）
@@ -219,11 +219,11 @@ const routes: Routes = [
 <router-outlet></router-outlet>
 <router-outlet name="aux"></router-outlet>
 以上代码的运行效果如图3.7所示。
- 
+ ![](/assets/37.JPG)
 图3.7 辅助路由运行效果（1）
 也可以将上述代码的第4行改为如下代码，此时当点击开始聊天时会在主路由插座位置显示home组件内容。运行效果如图3.8所示。
 <a [routerLink]="[{outlets: {primary: 'home', aux: 'chat'}}]">开始聊天</a>
- 
+ ![](/assets/38.JPG)
 图3.8 辅助路由运行效果（2）
 7．路由守卫
 在满足一些条件时才需要打开某个页面，例如：
@@ -300,7 +300,7 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 其实上述代码只是在第11行后面添加了canDeactivate的内容，在第17行后面添加了UnsavedGuard，运行效果如图3.9所示。
- 
+ ![](/assets/39.JPG)
 图3.9 路由守卫效果图
 在路由守卫中还有一种情况，就是在激活路由之前获取数据，一旦进入路由后就可以直接在相应的地方展现数据，这种路由就是Resolve路由。其实现方法可以通过下面的步骤完成，即在进入商品信息的路由之前就先读取商品信息，在读好后带着这个信息进入到路由中。
 （1）定义Product对象
