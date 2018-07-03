@@ -1,180 +1,3 @@
-&lt;!--  
- /\* Font Definitions \*/  
- @font-face  
-	{font-family:Wingdings;  
-	panose-1:5 0 0 0 0 0 0 0 0 0;  
-	mso-font-charset:2;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:0 268435456 0 0 -2147483648 0;}  
-@font-face  
-	{font-family:宋体;  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-alt:SimSun;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
-@font-face  
-	{font-family:宋体;  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-alt:SimSun;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
-@font-face  
-	{font-family:Calibri;  
-	panose-1:2 15 5 2 2 2 4 3 2 4;  
-	mso-font-charset:0;  
-	mso-generic-font-family:swiss;  
-	mso-font-pitch:variable;  
-	mso-font-signature:-536870145 1073786111 1 0 415 0;}  
-@font-face  
-	{font-family:"\@宋体";  
-	panose-1:2 1 6 0 3 1 1 1 1 1;  
-	mso-font-charset:134;  
-	mso-generic-font-family:auto;  
-	mso-font-pitch:variable;  
-	mso-font-signature:3 680460288 22 0 262145 0;}  
- /\* Style Definitions \*/  
- p.MsoNormal, li.MsoNormal, div.MsoNormal  
-	{mso-style-unhide:no;  
-	mso-style-qformat:yes;  
-	mso-style-parent:"";  
-	margin:0cm;  
-	margin-bottom:.0001pt;  
-	text-align:justify;  
-	text-justify:inter-ideograph;  
-	mso-pagination:none;  
-	font-size:10.5pt;  
-	mso-bidi-font-size:12.0pt;  
-	font-family:"Times New Roman","serif";  
-	mso-fareast-font-family:宋体;  
-	mso-font-kerning:1.0pt;}  
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph  
-	{mso-style-priority:34;  
-	mso-style-unhide:no;  
-	mso-style-qformat:yes;  
-	margin:0cm;  
-	margin-bottom:.0001pt;  
-	text-align:justify;  
-	text-justify:inter-ideograph;  
-	text-indent:21.0pt;  
-	mso-char-indent-count:2.0;  
-	mso-pagination:none;  
-	font-size:10.5pt;  
-	mso-bidi-font-size:11.0pt;  
-	font-family:"Calibri","sans-serif";  
-	mso-fareast-font-family:宋体;  
-	mso-bidi-font-family:"Times New Roman";  
-	mso-font-kerning:1.0pt;}  
-.MsoChpDefault  
-	{mso-style-type:export-only;  
-	mso-default-props:yes;  
-	font-size:10.0pt;  
-	mso-ansi-font-size:10.0pt;  
-	mso-bidi-font-size:10.0pt;  
-	mso-ascii-font-family:"Times New Roman";  
-	mso-fareast-font-family:宋体;  
-	mso-hansi-font-family:"Times New Roman";  
-	mso-font-kerning:0pt;}  
- /\* Page Definitions \*/  
- @page  
-	{mso-page-border-surround-header:no;  
-	mso-page-border-surround-footer:no;}  
-@page WordSection1  
-	{size:612.0pt 792.0pt;  
-	margin:72.0pt 90.0pt 72.0pt 90.0pt;  
-	mso-header-margin:36.0pt;  
-	mso-footer-margin:36.0pt;  
-	mso-paper-source:0;}  
-div.WordSection1  
-	{page:WordSection1;}  
- /\* List Definitions \*/  
- @list l0  
-	{mso-list-id:1240869868;  
-	mso-list-type:hybrid;  
-	mso-list-template-ids:-1512045950 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}  
-@list l0:level1  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:21.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level2  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:42.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level3  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:63.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level4  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:84.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level5  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:105.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level6  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:126.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level7  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:147.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level8  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:168.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-@list l0:level9  
-	{mso-level-number-format:bullet;  
-	mso-level-text:;  
-	mso-level-tab-stop:none;  
-	mso-level-number-position:left;  
-	margin-left:189.0pt;  
-	text-indent:-21.0pt;  
-	font-family:Wingdings;}  
-ol  
-	{margin-bottom:0cm;}  
-ul  
-	{margin-bottom:0cm;}  
---&gt;  
-
-
 1．新闻发布系统框架介绍
 
 为了让大家能够快速熟悉angular开发技术，下面以一个竞拍系统的实现过程进行详细介绍，首先来分析一下如图4所示的新闻发布系统主界面，该主界面用angular实现时可以分成7个组件：
@@ -193,8 +16,7 @@ ul
 
 （7）星级评定组件（stars）
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
-
+![](/assets/24.JPG)
 图4新闻发布系统界面
 
 
@@ -205,7 +27,6 @@ ul
 
 l利用WebStorm集成开发环境创建：即在项目目录的app文件夹上右击，在弹出的菜单中选择New→Angular CLI…后，输入新建组件的名称，本例中的名称为“footer”，如图5所示；
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image004.jpg)
 
 图5新建组件
 
