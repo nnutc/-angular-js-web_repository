@@ -1,4 +1,4 @@
-![](/assets/21.JPG)
+![](/assets/21.JPG)![](/assets/21.JPG)
 
 图1 Angular项目结构
 
@@ -20,11 +20,11 @@ import{ Component } from '@angular/core';
 
 @Component\({
 
- selector: 'app-root',/\*表示使用这个组件的名称 \*/
+selector: 'app-root',/\*表示使用这个组件的名称 \*/
 
- templateUrl: './app.component.html',
+templateUrl: './app.component.html',
 
- styleUrls: \['./app.component.css'\]
+styleUrls: \['./app.component.css'\]
 
 }\)
 
@@ -32,7 +32,7 @@ import{ Component } from '@angular/core';
 
 export classAppComponent {
 
- title= 'app';
+title= 'app';
 
 }
 
@@ -56,21 +56,21 @@ import { AppComponent } from './app.component'; /\*自定义的模块\*/
 
 @NgModule\({
 
- declarations: \[/\*引入当前项目运行的组件，自定义组件需要引入并且在这里面配置\*/
+declarations: \[/\*引入当前项目运行的组件，自定义组件需要引入并且在这里面配置\*/
 
- AppComponent
+AppComponent
 
- \],
+\],
 
- imports: \[/\*引入当前项目运行依赖的其他模块\*/
+imports: \[/\*引入当前项目运行依赖的其他模块\*/
 
- BrowserModule
+BrowserModule
 
- \],
+\],
 
- providers: \[\],/\*定义的服务，此处为空，以后如果有服务可以添加于此\*/
+providers: \[\],/\*定义的服务，此处为空，以后如果有服务可以添加于此\*/
 
- bootstrap: \[AppComponent\] /\*默认启动哪个组件，也就是指定应用的主视图或称为根组件，通过引导根AppModule来启动应用，这里一般写的是根组件\*/
+bootstrap: \[AppComponent\] /\*默认启动哪个组件，也就是指定应用的主视图或称为根组件，通过引导根AppModule来启动应用，这里一般写的是根组件\*/
 
 }\)
 
