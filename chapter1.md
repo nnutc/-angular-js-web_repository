@@ -68,7 +68,7 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 可以输出所安装的Node.js的版本，如图3所示。
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image006.jpg)![](/assets/3.JPG)
 
 图3测试Node.js的安装版本
 
@@ -78,7 +78,7 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 此时，系统会自动下载并安装Angular CLI
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image008.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image008.jpg)![](/assets/4.JPG)
 
 图4安装Angular CLI
 
@@ -88,7 +88,7 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 会显示出Angular CLI的版本如图5所示。
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image010.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image010.jpg)![](/assets/5.JPG)
 
 图5测试Angular CLI版本
 
@@ -98,19 +98,19 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 进入官方网站[https://www.jetbrains.com/webstorm/，如图6所示。点击网站右上角的“Download”按钮。进入下载界面，然后根据你的操作系统选择相应的软件版本。下载完成后，会得到一个.exe文件（如WebStorm-2017.2.5.exe）。直接双击安装即可（如图7~图9所示）。](https://www.jetbrains.com/webstorm/，如图6所示。点击网站右上角的“Download”按钮。进入下载界面，然后根据你的操作系统选择相应的软件版本。下载完成后，会得到一个.exe文件（如WebStorm-2017.2.5.exe）。直接双击安装即可（如图7~图9所示）。)
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image012.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image012.jpg)![](/assets/6.JPG)
 
 图6 WebStorm官方网站
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image014.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image014.jpg)![](/assets/7.JPG)
 
 图7安装目标位置选择
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image016.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image016.jpg)![](/assets/8.JPG)
 
 图8安装选项设置
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image018.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image018.jpg)![](/assets/9.JPG)
 
 图9完成安装界面
 
@@ -126,6 +126,8 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 （4）选择第三种方法（特许站点），然后在输入框中输入相应的网站地址（笔者使用的[http://idea.ibdyr.com或http://idea.codebeta.cn网址，根据实际情况可以百度查询）。然后点击active，进行激活。](http://idea.ibdyr.com或http://idea.codebeta.cn网址，根据实际情况可以百度查询）。然后点击active，进行激活。)
 
+![](/assets/10.JPG)
+
 ![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image020.jpg)
 
 图10激活WebStorm
@@ -140,11 +142,11 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 就是在d:\angular\_web目录下创建了一个名称为“newsreport”的项目，然后可以使用WebStorm打开相应的项目，如图12所示。
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image022.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image022.jpg)![](/assets/11.JPG)
 
 图11命令行创建Angular项目
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image024.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image024.jpg)![](/assets/12.JPG)
 
 图12 WebStorm打开项目窗口
 
@@ -154,7 +156,7 @@ Node就是JavaScript语言在服务器端的运行环境（类似于Java的JVM�
 
 2．点击图13所示左侧“+”，在弹出的菜单中选择npm，在图13右侧相应的位置处输入npm脚本命令名，即在Name后面输入；在Script后面选择要运行的脚本（这儿选择的要运行的脚本都是在package.json中定义的），即start。
 
-![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image026.jpg)
+![](file:///C:\Users\angular\AppData\Local\Temp\msohtmlclip1\01\clip_image026.jpg)![](/assets/13.JPG)
 
 图13 Run/Debug Configurations对话框
 
