@@ -1,4 +1,4 @@
-![](/assets/21.JPG)![](/assets/21.JPG)
+![](/assets/21.JPG)
 
 图1 Angular项目结构
 
