@@ -9,9 +9,4 @@
 * [第二章 Angular项目结构和组件开发](di-er-zhang-huan-jing-da-jian.md)
   * [2.1 项目目录结构](di-er-zhang-huan-jing-da-jian/21-xiang-mu-mu-lu-jie-gou.md)
   * [2.2  项目中引入第三方类库](di-er-zhang-huan-jing-da-jian/22-xiang-mu-zhong-yin-ru-di-san-fang-lei-ku.md)
-  * [2.3 创建组件和应用](di-er-zhang-huan-jing-da-jian/23-chuang-jian-zu-jian-he-ying-yong.md)
-* [第三章 Angular Router](di-sanzhang-angular-router.md)
-  * [3.1 Angular路由基础](di-sanzhang-angular-router/31-angularlu-you-ji-chu.md)
-  * [3.2 路由的应用](di-sanzhang-angular-router/32-lu-you-de-ying-yong.md)
-* 第四章
 
